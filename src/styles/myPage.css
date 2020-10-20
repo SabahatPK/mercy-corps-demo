@@ -1,0 +1,39 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  min-height: 100vh !important;
+  z-index: -1;
+  padding: 48px 0 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid #73ad21;
+}
+
+.topbar {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: cadetblue;
+  border: 1px solid #73ad21;
+}
+
+.myPage {
+  z-index: 0;
+  position: relative;
+  top: 100px;
+  border: 1px solid #73ad21;
+}
+
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}
+
+.tableCards {
+  margin-bottom: 100px;
+}
